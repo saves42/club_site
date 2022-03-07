@@ -6,6 +6,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0.2em;
+}
+
 img {
     width: 100%;
     max-width: 100%;
@@ -21,6 +25,14 @@ ul {
 
 li {
     padding: 0 0.2em;
+}
+
+.nav-links li::after {
+    content: ' |'
+}
+
+.nav-links li:last-child::after {
+    content: '';
 }
 
 #head {
@@ -47,9 +59,17 @@ li {
 }
 
 
-
 .photos-container {
     display: grid;
     grid-template-columns: 1fr;
+    
+}
+
+/* meet dates section */
+
+.meet-dates {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2em;
     
 }
