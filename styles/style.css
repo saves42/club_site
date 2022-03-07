@@ -60,6 +60,10 @@ li {
 
 .about-us {
     margin: 2em auto;
+    padding: 1em;
+    background:rgba(4, 34, 78, 0.815);
+    color: white;
+    border-radius: 10px;
 }
 
 .photos-container {
@@ -81,23 +85,26 @@ li {
 .meet-dates {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
-
+    gap: 0.5em;
+    
 }
 
 .meet-dates li {
     padding: 2em 0;
+    background:rgba(4, 61, 78, 0.815);
+    color: white;
+    border-radius: 10px;
 }
 
 
 
 .meet-dates li:nth-child(odd) {
     background:rgba(4, 34, 78, 0.815);
-    color: white;
 }
 
 /* contact section */
 
 .contact {
-    margin-bottom: 2em;
+    margin: 2em auto;
+    
 }
