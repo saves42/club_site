@@ -58,11 +58,22 @@ li {
 
 }
 
+.about-us {
+    margin: 2em auto;
+}
 
 .photos-container {
     display: grid;
     grid-template-columns: 1fr;
-    
+} 
+
+/* activities section */
+
+.activities {
+    margin: 2em auto;
+}
+.activities h2 {
+    margin: 1em;
 }
 
 /* meet dates section */
@@ -70,6 +81,23 @@ li {
 .meet-dates {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 2em;
-    
+    gap: 1em;
+
+}
+
+.meet-dates li {
+    padding: 2em 0;
+}
+
+
+
+.meet-dates li:nth-child(odd) {
+    background:rgba(4, 34, 78, 0.815);
+    color: white;
+}
+
+/* contact section */
+
+.contact {
+    margin-bottom: 2em;
 }
