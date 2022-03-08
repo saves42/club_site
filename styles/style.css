@@ -8,6 +8,8 @@
 
 body {
     margin: 0.2em;
+    background-color: #f9d199;
+    color: white;
 }
 
 img {
@@ -61,7 +63,7 @@ li {
 .about-us {
     margin: 2em auto;
     padding: 1em;
-    background:rgba(4, 34, 78, 0.815);
+    background:#003d60;
     color: white;
     border-radius: 10px;
 }
@@ -91,7 +93,7 @@ li {
 
 .meet-dates li {
     padding: 2em 0;
-    background:rgba(4, 61, 78, 0.815);
+    background:#00aa99;
     color: white;
     border-radius: 10px;
 }
@@ -99,12 +101,13 @@ li {
 
 
 .meet-dates li:nth-child(odd) {
-    background:rgba(4, 34, 78, 0.815);
+    background: #003d60;
 }
 
 /* contact section */
 
 .contact {
     margin: 2em auto;
-    
+    padding: 2em 0;
+    background-color: rgba(0, 0, 0, 0.5);
 }
