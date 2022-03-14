@@ -17,6 +17,16 @@ img {
     max-width: 100%;
 }
 
+/* font style */
+
+.lg-text {
+    font-size: 2rem;
+}
+
+.dk-bg {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
 /* nav */
 
 ul {
@@ -68,11 +78,24 @@ li {
     border-radius: 10px;
 }
 
+@media (min-width: 1024px) {
+    .about-us {
+       width: 80%;
+    }
+    
+}
+
 .photos-container {
     display: grid;
     grid-template-columns: 1fr;
 } 
-
+@media (min-width: 1024px) {
+    .photos-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1em;
+    } 
+}
 /* activities section */
 
 .activities {
@@ -80,6 +103,12 @@ li {
 }
 .activities h2 {
     margin: 1em;
+}
+
+@media (min-width: 1024px) {
+    .activities .photos-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 /* meet dates section */
@@ -102,6 +131,13 @@ li {
 
 .meet-dates li:nth-child(odd) {
     background: #003d60;
+}
+
+@media (min-width: 1024px) {
+    .meet-dates {
+       display: grid;
+       grid-template-columns: repeat(4, 1fr);
+    }
 }
 
 /* contact section */
