@@ -143,7 +143,8 @@ li {
 /* contact section */
 
 .contact {
-    margin: 2em auto;
+    margin-top: 2em;
+    margin-bottom: 0;
     padding: 2em 0;
     background-color: rgba(0, 0, 0, 0.5);
 }
